@@ -2,8 +2,9 @@ import React from 'react';
 import {AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar} from 'react-icons/ai'
 
 import {client, urlFor} from "../../lib/client";
+import {Product} from "../../components";
 
-const ProductDetails = ({product, produts}) => {
+const ProductDetails = ({product, products}) => {
     const {image, name, details, price} = product
 
     return (
@@ -49,7 +50,17 @@ const ProductDetails = ({product, produts}) => {
                     <div className='buttons'>
                         <button type='button' className='add-to-cart' onClick=''>Add to cart</button>
                         <button type='button' className='buy-now' onClick=''>Buy now</button>
+                    </div>
+                </div>
+            </div>
 
+            <div className='maylike-products-wrapper'>
+                <h2>You may also like this watch</h2>
+                <div className='marquee'>
+                    <div className='maylike-products-container'>
+                        {products.map((item) => (
+                            <Product key={item._id} product={item}/>
+                        ))}
                     </div>
                 </div>
             </div>
