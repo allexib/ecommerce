@@ -212,7 +212,7 @@ span.text-red {
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: mediumvioletred;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -250,6 +250,7 @@ span.text-red {
   left: 8%; */
   top: -25%;
   left: 25%;
+  width: 550px;
 }
 .banner-desc .right{
   line-height: 1.4;
