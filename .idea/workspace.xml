@@ -4,6 +4,7 @@
     <list default="true" id="33dd6441-d7c7-4cfe-9358-dd02fca67789" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/context/StateContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/context/StateContext.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +33,7 @@
       <file leaf-file-name="[slug].js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/product/[slug].js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="945">
               <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -41,20 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cart.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cart.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Cart.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="52" selection-end-column="11" />
+            <state relative-caret-position="195">
+              <caret line="51" column="110" selection-start-line="51" selection-start-column="110" selection-end-line="51" selection-end-column="110" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateContext.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StateContext.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/context/StateContext.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="237">
+              <caret line="36" column="66" lean-forward="true" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +66,7 @@
       <file leaf-file-name="Navbar.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Navbar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="420">
               <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -138,6 +142,7 @@
         <option value="$PROJECT_DIR$/components/context/StateContext.js" />
         <option value="$PROJECT_DIR$/components/Navbar.jsx" />
         <option value="$PROJECT_DIR$/components/Cart.jsx" />
+        <option value="$PROJECT_DIR$/context/StateContext.js" />
       </list>
     </option>
   </component>
@@ -170,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,6 +217,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,12 +265,13 @@
       <workItem from="1652283001999" duration="4275000" />
       <workItem from="1652368992925" duration="2102000" />
       <workItem from="1652449476033" duration="2576000" />
-      <workItem from="1652457481860" duration="1575000" />
+      <workItem from="1652457481860" duration="1964000" />
+      <workItem from="1652601578108" duration="2639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36304000" />
+    <option name="totallyTimeSpent" value="39332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1331" y="0" width="1240" height="1031" extended-state="0" />
@@ -648,19 +654,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Navbar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/product/[slug].js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="945">
           <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -668,17 +664,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/context/StateContext.js">
+    <entry file="file://$PROJECT_DIR$/components/Navbar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        <state relative-caret-position="420">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Cart.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="52" selection-end-column="11" />
+        <state relative-caret-position="195">
+          <caret line="51" column="110" selection-start-line="51" selection-start-column="110" selection-end-line="51" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/context/StateContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="36" column="66" lean-forward="true" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
